@@ -1,0 +1,14 @@
+{
+  "name": "bingo-familiar",
+  "version": "1.0.0",
+  "description": "Bingo tradicional de 75 bolas en español para jugar en familia. Sitio estático sin dependencias en producción.",
+  "private": true,
+  "scripts": {
+    "test": "node test/logic.test.js && node test/smoke.test.js",
+    "start": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  },
+  "license": "MIT"
+}
